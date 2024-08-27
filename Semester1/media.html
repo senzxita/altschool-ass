@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Media</title>
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <a href="./index.html">Student Bio</a>
+            <a href="./form.html">Apply to AltSchool Africa</a>
+            <a href="./table.html">Schools and Courses</a>
+            <a href="./media.html">Student Media</a>
+        </nav>
+    </header>
+    
+    <main>  
+        <h1>Student Media</h1>
+
+        <p>I was once a Google Ambassador in the higher institution I attended, I made an video that was uploaded to Youtube during my application to the program.</p>
+        <iframe 
+            width="560" 
+            height="315" 
+            src="https://www.youtube.com/embed/ln4ccOzUMi0?si=vdTfYn9WRYb6naIu" 
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" 
+            allowfullscreen>
+        </iframe>
+
+        <p>I love dancing, at the moment, the song I mostly dance to can be found in the audio below.</p>
+        <audio controls>
+            <source src="../Assets/Rema-feat-Shallipopi-BENIN-BOYS-(maxnaija.com).mp3" type="audio/mpeg">
+        </audio>
+
+        <p>I also got married in April 2024, you can find a few pictures and video from the prewedding shoot,and traditional wedding </p>
+        <img src="../Assets/Prewedding.jpeg" alt ="Prewedding picture">
+        <img src="../Assets/trad.jpeg" alt="Traditional wedding picture"> </br>
+
+        </br>
+
+        <video controls preload="auto">
+            <source src="../Assets/Wedding clip.mp4" type="video/mp4"> Wedding video clip
+        </video> </br>
+        </br>
+
+        <picture>
+            <!-- For mobile devices -->
+            <source srcset="../Assets/laptop.jpg" media="(max-width: 599px)">
+            <!-- For tablets -->
+            <source srcset="../Assets/laptop.jpg" media="(min-width: 600px) and (max-width: 1023px)">
+            <!-- For laptops -->
+            <source srcset="../Assets/laptop.jpg" media="(min-width: 1024px) and (max-width: 1440px)">
+
+            <img src="../Assets/laptop.jpg" alt = "Laptop image">
+        </picture> </br>
+
+        </br>
+    </main>
+    
+    <footer>
+        <a href="#top">Back to the top</a> </br>
+        <code>&copy;2024</code>
+    </footer>
+</body>
+</html>

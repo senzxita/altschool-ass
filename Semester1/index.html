@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Bio</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav class="nav">
+            <a href="./index.html">Student Bio</a>
+            <a href="./form.html">Apply to AltSchool Africa</a>
+            <a href="./table.html">Schools and Courses</a>
+            <a href="./media.html">Student Media</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Student Information</h1>
+        <div class="images">
+            <img src="https://avatars.githubusercontent.com/u/20463821?v=4" alt="GitHub Profile Picture" width="200px" height="200px" /></div>
+        </div>
+        <p><b>AltSchool ID: </b>ALT/SOE/023/3093</p>
+        <p><b>First Name: </b>Rita</p>
+        <p><b>Last Name: </b>Zannu</p>
+        
+        <div class="form-input">
+            <label for="checkbox">
+                <b>Gender:</b>
+            </label> Male
+            <input type="checkbox" name="checkbox" id="checkbox"/>
+            Female
+            <input type="checkbox" name="checkbox" id="checkbox" checked disabled/>
+            Prefer Not To Say
+            <input type="checkbox" name="checkbox" id="checkbox"/>
+        </div> </br>
+
+        <form>
+            <label for="date"><b>Date of Birth: </b></label>
+            <input type="date" id="date" name="date" value="1997-11-26" readonly>
+        </form> </br>
+
+        <div class="form-input">
+            <label for="checkbox">
+                <b>Marital Status: </b>
+            </label> Single
+            <input type="checkbox" name="checkbox" id="checkbox"/>
+            Married
+            <input type="checkbox" name="checkbox" id="checkbox" checked disabled/>
+            Divorced
+            <input type="checkbox" name="checkbox" id="checkbox"/>
+            Widowed
+            <input type="checkbox" name="checkbox" id="checkbox"/>
+        </div> </br>
+        
+        <div class="form-input">
+            <label for="program">
+                <b>Specialization in School of Engineering: </b>
+            </label>
+            <input list="programs" id="program" name="program" value="Backend Engineering" readonly>
+            <datalist id="programs">
+                <option value="Backend Engineering">
+                <option value="Frontend Engineering">
+                <option value="Cloud Engineering">
+                <option value="Cybersecurity">
+            </datalist>
+        </div>
+
+        <article>
+            <header>
+                <h2>Biography</h2>
+            </header>
+            <section>
+                <p>A student of <b>AltSchool Africa</b>, enrolled with the July batch in 2023, but I had to defer my admission (in 1st semester) due to circumstances that limited me from being able to pay full attention to the AltSchool Programme. I rejoined the AltSchool again in May 2024, this time with more dedication, resilience and determination to see the programme through to the end and graduate as a <i><b>Backend Engineer</b></i>. I studied Computer Science and has been in the DevOps engineering field for sometime now, but haven't had any production experience. I currently work as a <i><b>Project Manager</b></i> managing DevOps projects majorly and other Dev, QA, Data Engineering projects. My line of requires the knowledge of least one programming language. This is part of my aim this session, to equip myself with this skill in other to be successful in my career.</p>
+                <p>I am still very much interested in DevOps Engineering, I create Pet projects to continually skilling up in that area. I can't wait to be able to build a Portfolio, I have so many skills to showcase. I have also written Technical articles in the past. In future, I still want to be a DevOps Engineer who understands how APIs are built and also understand how applications are being developed generally. Also to know how to program in Python and Golang. It is a journey and a long ride but I am determined to get to my destination.</p>        
+            </section>
+        </article>
+    
+       
+        <div class="form-input">
+            <label for="short-story"><b>Why did you join AltSchool Africa?</b></label></br>
+            <textarea name="story-story" id="short-story" cols="50" rows="14" readonly>
+I joined AltSchool Africa because I want to be a Software Engineer, be better and skilled at coding. I would love to know how to code with Python and Golang. Be skilled at creating APIs and have the full understanding of how applications are being developed. 
+
+AltSchool Africa provides a diploma certificate that is recognized in most places, the certificate coupled with my aquired skillset, I would be able to easily get a job as a Software Engineer. Besides, Mr Setemi is a wonderful tutor. Thanks to AltSchool Africa for this great opportunity.
+            </textarea>
+        </div>
+
+        <h2>Goals for School of Engineering Programme</h2>
+        <ol>
+            <li>Skilled in Python Programming</li>
+            <li>Ability to create APIs</li>
+            <li>Knowledge of how applications are developed</li>
+        </ol>
+        
+        <h2>Certifications</h2>
+        <ul>
+            <li>AWS Certified Solutions Architect Associate</li>
+            <li>AWS Cloud Practitioner</li>
+            <li>Microsoft Azure Fundamentals</li>
+            <li>Google Project Management</li>
+        </ul>
+    </main>
+    <footer>
+        <p><b>Drop a comment!</b></p>
+        <p contenteditable="true">Write a comment here....</p>
+
+        <nav>
+            <h3>Contact Me &#128187;</h3>
+            
+            <a href="http://twitter.com/iyam_pearl">X 
+                <img src="../Assets/x.png" alt="Link to X" width="25px" height="25px"/></a>
+            <a href="linkedin.com/in/rita-zannu/">Linkedin
+                <img src="../Assets/Linkedin.png" alt="Link to Linkedin" width="25px" height="25px"/></a>
+            <a href="https://github.com/senzxita">GitHub
+                <img src="../Assets/GitHub.png" alt="Link to GitHub" width="25px" height="25px"/></a></br>
+            </br>
+            
+            <a href="#top">Back to the top</a> </br>
+            <code>&copy;2024</code>
+        </nav>
+    </footer>
+</body>
+</html>
