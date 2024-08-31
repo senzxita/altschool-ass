@@ -1,0 +1,89 @@
+.nav {
+    background-color: #cbdade;
+    padding: 10px;
+    margin: -10px;
+}
+
+.logo img {
+    margin-right: 20px;
+}
+
+/* Style for the links inside the navbar */
+.nav ul {
+    list-style-type: none;
+    display: flex;
+    float: right;
+    margin: 0;
+    padding: 13px;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.nav a {
+    color: rgb(8, 70, 103);
+    text-decoration: none;
+    padding: 14px 20px;
+    text-size-adjust: 10px;
+}
+
+.nav a:hover {
+    color: rgb(8, 175, 246);
+}
+
+body {
+    background-color: #cbdade;
+}
+
+h1 {
+    background-color: cadetblue;
+    margin: -8px;
+    padding: 50px;
+    text-align: center;
+    text-transform: capitalize;
+    text-size-adjust: 30px;
+    font-size: 4em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(8, 70, 103);
+}
+
+
+
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#footer {
+    background-color: rgb(3, 79, 83);
+    color: white;
+    margin: -8px;
+}
+
+#footer a {
+    text-decoration: none;
+    color: rgb(152, 180, 195);
+}
+
+#footer ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-left: 155px;
+    margin-right: 155px;
+}
+
+.socials li {
+    margin-right: 50px;
+    line-height: -50px;
+}
+
+#footer p,
+code {
+    align-items: center;
+    justify-content: center;
+    margin-left: 155px;
+    margin-right: 155px;
+    display: flex;
+}

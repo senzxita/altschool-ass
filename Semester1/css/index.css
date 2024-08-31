@@ -1,0 +1,158 @@
+/* Style for the navbar */
+.nav {
+    background-color: #cbdade;
+    padding: 10px;
+    margin: -10px;
+}
+
+.logo img {
+    margin-right: 20px;
+}
+
+/* Style for the links inside the navbar */
+.nav ul {
+    list-style-type: none;
+    display: flex;
+    float: right;
+    margin: 0;
+    padding: 13px;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.nav a {
+    color: rgb(8, 70, 103);
+    text-decoration: none;
+    padding: 14px 20px;
+    text-size-adjust: 10px;
+}
+
+.nav a:hover {
+    color: rgb(8, 175, 246);
+}
+
+h1 {
+    background-color: cadetblue;
+    margin: -8px;
+    padding: 50px;
+    text-align: center;
+    text-transform: capitalize;
+    text-size-adjust: 30px;
+    font-size: 4em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(8, 70, 103);
+}
+
+.images {
+    border-radius: 50%;
+    border-style: solid;
+    border-color: white;
+    margin: -8px;
+    margin-top: -90px;
+
+}
+
+body {
+    background-color: #cbdade;
+    background-position: center top; 
+    
+}
+
+ul li,
+ol li {
+    margin-bottom: 20px;
+    color: rgb(8, 70, 103);
+}
+
+.deets {
+    margin-left: 190px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5em;
+}
+
+article {
+    margin-left: 130px;
+    text-align: justify;
+}
+
+.article-container {
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    padding-block: 10px;
+    background-color: rgb(81, 134, 142);
+    color: white;
+    padding: 35px;
+    min-width: 10px;
+    container-type: inline-size;
+    max-width: 100%;
+    font-size: 1.5em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 70%;
+
+}
+
+.content-container {
+    display: flex;/* Use flexbox layout */
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.sidebar {
+    width: 25%; /* Sidebar takes 25% of the width */
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 25%;
+    color: rgb(81, 134, 142);
+    margin-right: 130px;
+    font-size: 1.5em;
+    text-align: justify;
+    padding: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.goals {
+    margin-left: 155px;
+    margin-right: 155px;
+    font-size: 1.5em;
+    color: rgb(8, 70, 103);
+    display: flex;
+    justify-content: space-between; /* Space out the elements evenly */
+    padding: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#footer {
+    background-color: rgb(3, 79, 83);
+    color: white;
+    margin: -8px;
+}
+
+#footer a {
+    text-decoration: none;
+    color: rgb(152, 180, 195);
+}
+
+#footer ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-left: 155px;
+    margin-right: 155px;
+}
+
+.socials li {
+    margin-right: 50px;
+    line-height: -50px;
+}
+
+#footer p,
+code {
+    align-items: center;
+    justify-content: center;
+    margin-left: 155px;
+    margin-right: 155px;
+    display: flex;
+}
+

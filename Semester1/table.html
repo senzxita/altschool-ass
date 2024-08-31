@@ -1,64 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Schools and Courses</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Schools and Courses</title>
+  <link rel="stylesheet" type="text/css" href="./css/table.css">
 </head>
+
 <body>
-    <header>
-        <nav class="nav">
-            <a href="./index.html">Student Bio</a>
-            <a href="./form.html">Apply to AltSchool Africa</a>
-            <a href="./table.html">Schools and Courses</a>
-            <a href="./media.html">Student Media</a>
-        </nav>
-    </header>
-    <main>
-        <h1>Schools and Their Courses</h1>
+  <header>
+    <nav class="nav">
+      <img src="../Assets/AltSchoolAfricaLogo.png" id="logo" height="30 px" />
+      <ul class="nav-items">
+        <li><a href="./index.html">Student Bio</a></li>
+        <li><a href="./form.html">Apply to AltSchool Africa</a></li>
+        <li><a href="./table.html">Schools and Courses</a></li>
+        <li><a href="./media.html">Student Media</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1>Schools and Their Courses</h1>
 
-        <table border = "2">
-            <caption> Various Schools and The Courses Associated With Each School</caption>
-            <thead>
-              <tr>
-                <th id="school" scope="col">Schools</th>
-                <th colspan="11" id="courses">Courses</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th id="engineering" scope="row" tabindex="0" headers="school">Engineering</th>
-                <td tabindex="0" headers="courses" colspan ="2">Backend Engineering</td>
-                <td tabindex="0" headers="courses" colspan ="2">Cloud Engineering</td>
-                <td tabindex="0" headers="courses" colspan ="6">Frontend Engineering</td>
-                <td tabindex="0" headers="courses" colspan ="2">Cyber Security</td>
-              </tr>
-              <tr>
-                <th id="product" scope="row" tabindex="0" headers="school">Product</th>
-                <td tabindex="0" headers="courses" colspan ="2">Product Design</td>
-                <td tabindex="0" headers="courses" colspan ="2">Product Marketing</td>
-                <td tabindex="0" headers="courses" colspan ="6">Product Management</td>
-              </tr>
-              <tr>
-                <th id="data" scope="row" tabindex="0" headers="school" >Data</th>
-                <td tabindex="0" headers="courses" colspan ="2">Data Analysis</td>
-                <td tabindex="0" headers="courses" colspan ="2">Data Science</td>
-                <td tabindex="0" headers="courses" colspan ="6">Data Engineering</td>
-              </tr>
-              <tr>
-                <th id="business" scope="row" tabindex="0" headers="school" >Business</th>
-                <td tabindex="0" headers="courses" colspan ="2">Digital Marketing</td>
-                <td tabindex="0" headers="courses"colspan ="2">High-Impact Selling</td>
-              </tr>
-              <tr>
-                <th id="creative" scope="row" tabindex="0" headers="school" >Creative Economy</th>
-                <td tabindex="0" headers="courses" colspan ="2">Navigating the Music Business in Africa</td>
-                <td tabindex="0" headers="courses" colspan ="2">Content Mastery for African Creators</td>
-              </tr>
-            </tbody>
-    
-        </table>
+    <table border="2" class="table">
+      <caption> Various Schools and The Courses Associated With Each School</caption>
+      <thead>
+        <tr>
+          <th id="school" scope="col">Schools</th>
+          <th colspan="11" id="courses">Courses</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th id="engineering" scope="row" tabindex="0" headers="school">Engineering</th>
+          <td tabindex="0" headers="courses" colspan="2">Backend Engineering</td>
+          <td tabindex="0" headers="courses" colspan="2">Cloud Engineering</td>
+          <td tabindex="0" headers="courses" colspan="6">Frontend Engineering</td>
+          <td tabindex="0" headers="courses" colspan="2">Cyber Security</td>
+        </tr>
+        <tr>
+          <th id="product" scope="row" tabindex="0" headers="school">Product</th>
+          <td tabindex="0" headers="courses" colspan="2">Product Design</td>
+          <td tabindex="0" headers="courses" colspan="2">Product Marketing</td>
+          <td tabindex="0" headers="courses" colspan="6">Product Management</td>
+        </tr>
+        <tr>
+          <th id="data" scope="row" tabindex="0" headers="school">Data</th>
+          <td tabindex="0" headers="courses" colspan="2">Data Analysis</td>
+          <td tabindex="0" headers="courses" colspan="2">Data Science</td>
+          <td tabindex="0" headers="courses" colspan="6">Data Engineering</td>
+        </tr>
+        <tr>
+          <th id="business" scope="row" tabindex="0" headers="school">Business</th>
+          <td tabindex="0" headers="courses" colspan="2">Digital Marketing</td>
+          <td tabindex="0" headers="courses" colspan="2">High-Impact Selling</td>
+        </tr>
+        <tr>
+          <th id="creative" scope="row" tabindex="0" headers="school">Creative Economy</th>
+          <td tabindex="0" headers="courses" colspan="2">Navigating the Music Business in Africa</td>
+          <td tabindex="0" headers="courses" colspan="2">Content Mastery for African Creators</td>
+        </tr>
+      </tbody>
 
-    </main>
+    </table>
+
+
+  </main>
+
+  <footer id="footer">
+    <a href="#top">Back to the top</a>
+
+    <ul class="socials">
+      <li><a href="http://twitter.com/iyam_pearl">
+          <img src="../Assets/x.png" alt="Link to X" width="25px" height="25px" /></a></li>
+      <li><a href="linkedin.com/in/rita-zannu/">
+          <img src="../Assets/Linkedin.png" alt="Link to Linkedin" width="25px" height="25px" /></a></li>
+      <li><a href="https://github.com/senzxita">
+          <img src="../Assets/GitHub.png" alt="Link to GitHub" width="25px" height="25px" /></a></li>
+    </ul>
+
+    <p class="footer">All Rights Reserved</p>
+    <code>&copy;2024</code>
+
+  </footer>
 </body>
+
 </html>
